@@ -1,0 +1,36 @@
+.heroFeature,.heroCall{
+    height:90px;
+}
+
+.ad{
+    height: 110px;
+}
+
+.articleFeatur, .articleListing, .sidebar{
+    height:250px;
+}
+
+@media only screen and (max-width: 960px) {
+    .articleFeatur{
+        height: 110px;
+    }
+    .sidebar {
+    	margin: 20px auto;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .sidebar{
+        display: none;
+    }
+    
+    .hf{
+        display:none;
+    }
+    .articleListing {
+    	margin: 10px auto;
+    	height: 150px;
+    }
+    .ad {
+    	height: 50px;
+    }
+}
